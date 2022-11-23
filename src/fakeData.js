@@ -383,16 +383,18 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b1.webp",
+    cover:
+      "https://img.freepik.com/free-vector/programmer-concept-idea-coding-testing-writing-program-using-internet-different-software-website-development-optimization-isolated-vector-illustration_613284-2833.jpg?w=740&t=st=1669099945~exp=1669100545~hmac=acad25d9f797bb51b7ec4cf141355bc2479007da9de6b0f8b5daeac131255612",
   },
   {
     id: 2,
     type: "admin",
     date: "API. 25, 2022",
     com: "5 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
+    title: "Build your  Career As a Frontend Developers",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b2.webp",
+    cover:
+      "https://img.freepik.com/free-vector/frontend-developer-typographic-header-website-interface-design-improvement-web-page-programming-coding-testing-it-profession-isolated-flat-vector-illustration_613284-304.jpg?w=826&t=st=1669100110~exp=1669100710~hmac=3e87b58618e8f5ddc51401ddfa348e8db346f766c6f476aa8c150f76c3341c68",
   },
   {
     id: 3,
@@ -401,34 +403,38 @@ export const blog = [
     com: "10 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b3.webp",
+    cover:
+      "https://img.freepik.com/free-photo/indoor-shot-happy-student-male-with-curly-hair-dressed-casually-sitting-cafeteria-working-with-modern-technologies-while-studying-looking-with-smile-notebook-receiving-message-from-friend_273609-7468.jpg?w=740&t=st=1669099366~exp=1669099966~hmac=387211d6afb66e4750d77764ea6c2072f94b890e60e51aa0e1821ce1f589cd6c",
   },
   {
     id: 4,
     type: "admin",
     date: "JAN. 02, 2022",
     com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
+    title: "How To Learn Backend From Beginning",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b4.webp",
+    cover:
+      "https://img.freepik.com/free-vector/programmer-working-web-development-code-engineer-programming-python-php-java-script-computer_90220-249.jpg?w=740&t=st=1669106918~exp=1669107518~hmac=1afce8af67479e63d399552e4518f628e2101c406f4c5afda9c705bef083a1a8",
   },
   {
     id: 5,
     type: "admin",
     date: "DEC. 14, 2022",
     com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
+    title: "How to code in a convenient way in VS Code (Tips and Tricks ",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b5.webp",
+    cover:
+      "https://img.freepik.com/free-photo/code-coding-programming-technology-technical-concept_53876-120436.jpg?w=740&t=st=1669107189~exp=1669107789~hmac=10dcea8b9e3bfd62e353d2834065e5bd6d451023001dd1bde636f5868dbb20c5",
   },
   {
     id: 6,
     type: "user",
     date: "JAN. 18, 2021",
     com: "12 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
+    title: "Build your career as a programmer(beginner guide)",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b6.webp",
+    cover:
+      "https://img.freepik.com/free-photo/programming-script-text-coding-word_53876-64939.jpg?w=826&t=st=1669108187~exp=1669108787~hmac=13c96403e3bb6ca74fcf49a7d711be02cb064ab93cc9b3680f3b1d8f265a2df7",
   },
 ];
 export const testimonal = [
@@ -437,20 +443,23 @@ export const testimonal = [
     name: "ROGER SCOTT",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    cover:
+      "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
+    name: "Italo Melo",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
+    cover:
+      "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
+    name: "Saimon Robben",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
+    cover:
+      "https://images.pexels.com/photos/977796/pexels-photo-977796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];
