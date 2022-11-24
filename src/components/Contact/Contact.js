@@ -1,5 +1,6 @@
 import React from "react";
 import Back from "../Common/Back/Back";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
   const map =
@@ -48,6 +49,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    <Footer />
   </>;
 };
 

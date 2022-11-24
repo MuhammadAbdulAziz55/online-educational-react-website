@@ -1,5 +1,6 @@
 import React from "react";
 import Back from "../Common/Back/Back";
+import Footer from "../Footer/Footer";
 import BlogCard from "./BlogCard";
 
 const Blog = () => {
@@ -11,6 +12,7 @@ const Blog = () => {
           <BlogCard />
         </div>
       </section>
+      <Footer />
     </>
   );
 };

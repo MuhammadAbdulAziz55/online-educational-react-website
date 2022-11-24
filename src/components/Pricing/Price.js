@@ -3,6 +3,7 @@ import Back from "../Common/Back/Back";
 import PriceCard from "./PriceCard";
 import "./Price.css";
 import Faq from "./Faq";
+import Footer from "../Footer/Footer";
 
 const Price = () => {
   return (
@@ -16,6 +17,8 @@ const Price = () => {
       </section>
 
       <Faq />
+
+      <Footer />
     </>
   );
 };

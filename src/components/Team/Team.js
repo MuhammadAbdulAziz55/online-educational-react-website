@@ -1,6 +1,7 @@
 import React from "react";
 
 import Back from "../Common/Back/Back";
+import Footer from "../Footer/Footer";
 import "./Team.css";
 import TeamCard from "./TeamCard";
 
@@ -13,6 +14,7 @@ const Team = () => {
           <TeamCard />
         </div>
       </section>
+      <Footer />
     </>
   );
 };
