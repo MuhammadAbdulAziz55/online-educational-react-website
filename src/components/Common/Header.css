@@ -61,10 +61,10 @@ header #navButtonLink .link:hover {
     background-color: hotpink;
     position: relative;
   }
-  header ul.flexSB {
+  header #navButtonLink .flexSB {
     display: none;
   }
-  header ul li {
+  header #navButtonLink .link {
     margin-bottom: 20px;
   }
   .toggle {
