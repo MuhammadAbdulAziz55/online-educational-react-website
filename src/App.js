@@ -8,6 +8,7 @@ import Team from "./components/Team/Team";
 import Price from "./components/Pricing/Price";
 import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/pricing" element={<Price />} />
           <Route path="/journal" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>

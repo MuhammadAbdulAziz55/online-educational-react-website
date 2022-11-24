@@ -23,21 +23,21 @@ header li {
   margin-right: 40px;
 }
 
-header ul {
+header #navButtonLink {
   padding: 30px 20px;
 }
 
-header li {
+header .link {
   margin-right: 40px;
 }
 
-header ul li a {
+header #navButtonLink .link {
   color: #fff;
   font-weight: 500;
   transition: 0.5s;
 }
 
-header ul li a:hover {
+header #navButtonLink .link:hover {
   color: hotpink;
 }
 

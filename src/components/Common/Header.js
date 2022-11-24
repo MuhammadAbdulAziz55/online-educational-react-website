@@ -10,7 +10,7 @@ const Header = () => {
       <Head />
       <header>
         <nav className="flexSB">
-          <BrowserRouter>
+          {/* <BrowserRouter>
             <ul
               className={click ? "mobile-nav" : "flexSB"}
               onClick={() => setClick(false)}
@@ -37,7 +37,35 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
-          </BrowserRouter>
+          </BrowserRouter> */}
+
+          <div
+            id="navButtonLink"
+            className={click ? "mobile-nav" : "flexSB"}
+            onClick={() => setClick(false)}
+          >
+            <a className="link" href="/home">
+              Home
+            </a>
+            <a className="link" href="/courses">
+              All Courses
+            </a>
+            <a className="link" href="/about">
+              About
+            </a>
+            <a className="link" href="/team">
+              Team
+            </a>
+            <a className="link" href="/pricing">
+              Pricing
+            </a>
+            <a className="link" href="/journal">
+              Journal
+            </a>
+            <a className="link" href="/contact">
+              Contact
+            </a>
+          </div>
 
           <div className="start">
             <div className="buttons">GET CERTIFICATE</div>
