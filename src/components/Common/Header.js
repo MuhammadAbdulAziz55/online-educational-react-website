@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Head from "./Heading/Head";
 import "./Header.css";
-import { BrowserRouter, Link } from "react-router-dom";
 
 const Header = () => {
   const [click, setClick] = useState(false);
