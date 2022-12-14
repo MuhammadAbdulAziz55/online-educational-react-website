@@ -34,7 +34,7 @@
   padding-bottom: 200px;
 } */
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 480) {
   .margin {
     height: 40vh;
   }
